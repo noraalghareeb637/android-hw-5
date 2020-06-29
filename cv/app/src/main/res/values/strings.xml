@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CV application</string>
+    <string name="todo">TODO</string>
+    <string name="enteryourname">enteryourname</string>
+    <string name="phone_number">phone number</string>
+    <string name="email">email</string>
+    <string name="next">next</string>
+    <string name="your_job">your job</string>
+    <string name="textview">TextView</string>
+    <string name="age">age</string>
+    <string name="name">enter_your_name</string>
+    <string name="email1">email</string>
+    <string name="phone_number1">phone number</string>
+    <string name="your_job1">your job</string>
+    <string name="your_age">your age</string>
+</resources>

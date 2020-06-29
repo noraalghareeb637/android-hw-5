@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EEEE"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="232dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="160dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="cursive"
+        android:text="@string/textview"
+        android:textSize="37sp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/age1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="160dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="cursive"
+        android:text="@string/textview"
+        android:textSize="37sp"
+
+        />
+
+    <TextView
+        android:id="@+id/job1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="160dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="cursive"
+        android:text="@string/textview"
+        android:textSize="37sp"
+        />
+
+    <TextView
+        android:id="@+id/phonenumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="160dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="cursive"
+        android:textSize="37sp"
+
+        />
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="160dp"
+        android:layout_marginTop="399dp"
+        android:fontFamily="cursive"
+        android:textSize="37sp"
+        />
+</RelativeLayout>

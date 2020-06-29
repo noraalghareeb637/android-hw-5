@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10dp"
+    android:background="@drawable/cvvv"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:hint="@string/enteryourname"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="37sp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="cursive"
+        android:hint="@string/your_age"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="37sp"
+        tools:ignore="MissingPrefix" />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="cursive"
+        android:hint="@string/your_job"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="37sp"
+        tools:ignore="MissingPrefix" />
+
+    <EditText
+        android:id="@+id/phn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="cursive"
+        android:hint="@string/phone_number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="37sp"
+        tools:ignore="MissingPrefix" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="37sp"
+        android:hint="@string/email"
+        tools:ignore="MissingPrefix"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="380dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+
+        android:text="next" />
+
+
+</RelativeLayout>
